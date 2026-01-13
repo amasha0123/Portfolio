@@ -1,42 +1,77 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: white;
   text-align: center;
+  padding: 80px 20px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  margin-bottom: 15px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Sections */
+.section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.section h2 {
+  color: #004e92;
+  margin-bottom: 15px;
 }
 
-.card {
-  padding: 2em;
+/* Skills */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  list-style: none;
+  padding: 0;
 }
 
-.read-the-docs {
-  color: #888;
+.skills li {
+  background: #004e92;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/* Contact */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.contact-form button {
+  background: #004e92;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #555;
 }
