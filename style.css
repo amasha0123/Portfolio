@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    background: #222;
+    background: #011e3a;
 }
 
 .navbar .logo {
@@ -38,7 +38,7 @@ body {
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    background: linear-gradient(135deg, #00b68f, #00b4d8);
     color: white;
 }
 
@@ -57,7 +57,7 @@ body {
 
 .btn {
     background: white;
-    color: #0077b6;
+    color: #00b695;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -80,7 +80,7 @@ section {
 
 section h2 {
     margin-bottom: 15px;
-    color: #0077b6;
+    color: #00b692;
 }
 
 /* SKILLS */
@@ -91,7 +91,7 @@ section h2 {
 }
 
 .skills-list li {
-    background: #0077b6;
+    background: #32919c;
     color: white;
     padding: 8px 15px;
     border-radius: 5px;
@@ -111,7 +111,7 @@ input, textarea {
 }
 
 button {
-    background: #0077b6;
+    background: #41a4bd;
     color: white;
     padding: 10px;
     border: none;
