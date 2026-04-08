@@ -1,93 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amasha Hansamalee | Portfolio</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome (icons) -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-<body>
-
-<!-- NAVBAR -->
-<nav class="navbar">
-    <h2 class="logo">Amasha</h2>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
-<!-- HERO -->
-<header class="hero">
-    <img src="profile.jpg" alt="Profile Photo" class="profile-img">
-    <h1>Amasha Hansamalee</h1>
-    <p>Undergraduate | Web Developer</p>
-
-    <div class="hero-buttons">
-        <a href="cv.pdf" download class="btn">Download CV</a>
-        <a href="https://github.com/" target="_blank" class="icon">
-            <i class="fab fa-github"></i>
-        </a>
-        <a href="https://linkedin.com/" target="_blank" class="icon">
-            <i class="fab fa-linkedin"></i>
-        </a>
-    </div>
-</header>
-
-<!-- ABOUT -->
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am an undergraduate student currently pursuing a BSc (Hons) in Software Engineering at
-        NSBM Green University. After completing my school education, I worked as a Bank Trainee,
-        where I developed strong teamwork, communication, responsibility, and time management skills.
-    </p>
-</section>
-
-<!-- SKILLS -->
-<section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>PHP</li>
-    </ul>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects">
-    <h2>Projects</h2>
-    <p>✔ Portfolio Website</p>
-    <p>✔ Academic Web Applications (Ongoing)</p>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-    <h2>Contact Me</h2>
-
-    <!-- SIMPLE & WORKING (mailto) -->
-    <form action="mailto:your@email.com" method="post" enctype="text/plain">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Message" required></textarea>
-        <button type="submit">Send</button>
-    </form>
-</section>
-
-<footer>
-    <p>&copy; 2024 Amasha Hansamalee</p>
-</footer>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amasha Hansamalee | Software Engineer & Web Developer</title>
+    <meta name="description" content="Portfolio of Amasha Hansamalee, a Software Engineering student and Web Developer specializing in React and modern web technologies." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

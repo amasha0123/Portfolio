@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import About from './components/About'  
-import Skills from './components/Skills'
-import Contact from './components/Contact'
+import About from './About'  
+import Skills from './Skills'
+import Contact from './Contact'
 
 function App() {
   return (
