@@ -1,0 +1,58 @@
+AMASHA HANSAMALEE
+Undergraduate at NSBM Green University 
+078 318 6375 | gmahansamalee@gmail.com
+NO:58/B, Aralugasmada, Badalkumbura
+
+GitHub Portfolio: https://amasha0123.github.io/Portfolio/
+LinkedIn: www.linkedin.com/in/amasha-hansamali-785580351
+
+ABOUT ME
+Highly motivated third-year BSc (Hons) Software Engineering undergraduate at NSBM Green University with a strong academic record and practical workplace experience. Skilled in Java, Python, C, HTML, CSS, React, and database systems, with experience developing academic and personal software projects. Possess excellent communication, teamwork, and customer service skills developed through training at Bank of Ceylon. Seeking a Software Engineering Internship to apply technical knowledge, gain industry experience, and contribute to innovative software solutions.
+
+EDUCATION
+BSc (Hons) Software Engineering
+NSBM Green University, Sri Lanka
+2023 – Present
+Current Status: Third Year Undergraduate
+Key Academic Achievements:
+• A Grade for Programming in C, Object-Oriented Programming with Java, Database Management Systems, Algorithms and Data Structures, Computer Architecture, Data Communications and Networks, Operating Systems, Mathematics for Computing, Introduction to Computer Science, Systems Analysis and Design, Statistics for Computing, Development of Enterprise Applications I, Software Architecture
+A/ls Physical Science Stream: B (Combined Math), C (Physics), S (Chemistry)
+
+WORK EXPERIENCE
+School Leaver Trainee
+Bank of Ceylon (BOC), Sri Lanka
+
+TECHNICAL SKILLS
+Programming Languages: Java, Python, C, JavaScript
+Web Technologies: HTML, CSS, React.js
+Tools: Git & GitHub, Visual Studio Code, IntelliJ IDEA, Antigravity
+Database Technologies: MySQL, SQL
+
+SOFT SKILLS
+• Communication Skills
+• Teamwork and Collaboration
+• Problem Solving
+• Critical Thinking
+• Time Management
+• Adaptability
+• Customer Service
+• Quick Learning Ability
+
+PROJECTS
+Portfolio 
+Developed a modern, responsive portfolio website using React, Vite, and Framer Motion, showcasing projects, technical skills, and professional achievements.
+
+Auction Website (Group project)
+Developed a responsive online auction platform using Next.js, React, TypeScript, and Tailwind CSS, featuring real-time bid updates with TanStack React Query.
+
+Wedding Invite Website
+Developed a responsive wedding invitation website with personalized guest invitations, interactive UI elements, custom animations, and social sharing features using HTML, CSS, and JavaScript.
+
+Elysian Stay-Online Booking website (Currently Under Development)
+Developed a responsive full-stack booking application utilizing React and Vite on the frontend, supported by a custom Node.js/Express backend. Integrated Firebase for robust data management and Stripe API for processing secure online payments.
+
+Online Learning Application (Currently Under Development)
+Built a scalable Flutter-based Learning Management System using Firebase, Clean Architecture, Provider state management, and secure RBAC authentication.
+
+Internly mobile app (Dart) - Group project
+Developed using flutter to find internships by uploading the cv generated through application. Features mock interviews and mock quizzes for beginners.

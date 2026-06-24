@@ -50,7 +50,7 @@ const FloatingButtons = () => {
           <FaGithub />
         </motion.a>
         <motion.a 
-          href="https://linkedin.com" 
+          href="https://www.linkedin.com/in/amasha-hansamali-785580351" 
           target="_blank" 
           rel="noreferrer"
           className="fab-social"

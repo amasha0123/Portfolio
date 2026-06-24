@@ -31,16 +31,16 @@ const Contact = () => {
           <div className="contact-details">
             <div className="detail-item">
               <FaEnvelope />
-              <span>gmahansamali@gmail.com</span>
+              <span>gmahansamalee@gmail.com</span>
             </div>
             <div className="detail-item">
               <FaMapMarkerAlt />
-              <span>Sri Lanka</span>
+              <span>NO:58/B, Aralugasmada, Badalkumbura</span>
             </div>
           </div>
 
           <div className="social-links">
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+            <a href="https://www.linkedin.com/in/amasha-hansamali-785580351" target="_blank" rel="noreferrer"><FaLinkedin /></a>
             <a href="https://github.com/amasha0123" target="_blank" rel="noreferrer"><FaGithub /></a>
           </div>
         </motion.div>
@@ -52,15 +52,19 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <form className="contact-form">
+          <form className="contact-form" action="https://formsubmit.co/gmahansamalee@gmail.com" method="POST">
+            {/* Optional FormSubmit Settings */}
+            <input type="hidden" name="_subject" value="New submission from your Portfolio!" />
+            <input type="hidden" name="_captcha" value="false" />
+            
             <div className="form-group">
-              <input type="text" placeholder="Your Name" required />
+              <input type="text" name="name" placeholder="Your Name" required />
             </div>
             <div className="form-group">
-              <input type="email" placeholder="Your Email" required />
+              <input type="email" name="email" placeholder="Your Email" required />
             </div>
             <div className="form-group">
-              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
             </div>
             <button type="submit" className="btn btn-primary btn-block">
               Send Message <FaPaperPlane />

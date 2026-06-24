@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero-section section">
       <div className="hero-content">
-        <motion.div 
+        <motion.div
           className="hero-text"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -16,16 +16,16 @@ const Hero = () => {
           <h1 className="hero-name">Amasha Hansamalee</h1>
           <h3 className="hero-role">Software Engineering Undergraduate</h3>
           <p className="hero-description">
-            Aspiring Software Engineer passionate about building modern web applications. 
+            Aspiring Software Engineer passionate about building modern web applications.
             Focused on creating clean, efficient, and user-centric digital experiences.
           </p>
           <div className="hero-cta">
             <a href="#projects" className="btn btn-primary">View Projects</a>
-            <a href="/cv.pdf" download className="btn btn-secondary">Download CV</a>
+            <a href="Amasha's CV.pdf" download="Amasha_Hansamalee_CV.pdf" className="btn btn-secondary">Download CV</a>
           </div>
         </motion.div>
-        
-        <motion.div 
+
+        <motion.div
           className="hero-image-container"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}

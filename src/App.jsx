@@ -61,7 +61,7 @@ function App() {
           <p>&copy; {new Date().getFullYear()} Amasha Hansamali. All rights reserved.</p>
           <div className="footer-links">
             <a href="https://github.com/amasha0123" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/amasha-hansamali-785580351" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
       </footer>

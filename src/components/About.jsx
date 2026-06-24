@@ -22,23 +22,19 @@ const About = () => {
           viewport={{ once: true }}
         >
           <p>
-            I am a dedicated Software Engineering undergraduate at **NSBM Green University**. 
-            My journey into technology began with a curiosity for how things work, and it has 
-            evolved into a passion for developing scalable and impactful software solutions.
+            I am a highly motivated **Third-Year Software Engineering undergraduate** at **NSBM Green University** with a strong academic record and a passion for developing scalable and impactful software solutions. My journey into technology is driven by a desire to innovate and apply my technical knowledge to real-world problems.
           </p>
           <p>
-            With a background as a Bank Trainee, I've honed essential soft skills like 
-            **teamwork, communication, and time management**, which complement my technical expertise. 
-            I thrive in collaborative environments and enjoy tackling complex problems.
+            Through my academic projects and my experience as a **School Leaver Trainee at Bank of Ceylon (BOC)**, I've honed essential soft skills such as **communication, teamwork, customer service, and time management**. I thrive in collaborative environments and am highly adaptable to new challenges and quick to learn new technologies.
           </p>
           <div className="about-stats">
             <div className="stat-item">
               <h4>BSc (Hons)</h4>
-              <p>Software Engineering</p>
+              <p>Software Engineering (3rd Year)</p>
             </div>
             <div className="stat-item">
               <h4>Location</h4>
-              <p>Sri Lanka</p>
+              <p>Badalkumbura, Sri Lanka</p>
             </div>
           </div>
         </motion.div>
@@ -50,12 +46,13 @@ const About = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h3>Core Values</h3>
+          <h3>Soft Skills</h3>
           <ul>
-            <li>✨ <strong>Quality:</strong> Writing clean, maintainable code.</li>
-            <li>🚀 <strong>Growth:</strong> Continuously learning new technologies.</li>
-            <li>🤝 <strong>Collaboration:</strong> Building together to achieve more.</li>
-            <li>💡 <strong>Innovation:</strong> Finding creative solutions to problems.</li>
+            <li>🗣️ <strong>Communication:</strong> Clear and effective interactions.</li>
+            <li>🤝 <strong>Teamwork:</strong> Collaborative and supportive approach.</li>
+            <li>🧩 <strong>Problem Solving:</strong> Critical thinking to tackle challenges.</li>
+            <li>⏱️ <strong>Time Management:</strong> Efficient and adaptable under pressure.</li>
+            <li>😊 <strong>Customer Service:</strong> Experienced from Bank of Ceylon training.</li>
           </ul>
         </motion.div>
       </div>

@@ -6,30 +6,29 @@ import { SiVite, SiTailwindcss, SiPostgresql, SiFirebase } from 'react-icons/si'
 const Skills = () => {
   const categories = [
     {
-      title: "Frontend",
+      title: "Programming Languages",
+      skills: [
+        { name: "Java", icon: <FaJs />, color: "#b07219" }, // Using JS icon as a placeholder since FaJava is not imported, let's just stick to names or find better icons
+        { name: "Python", icon: <FaJs />, color: "#3572A5" },
+        { name: "C", icon: <FaJs />, color: "#555555" },
+        { name: "JavaScript", icon: <FaJs />, color: "#f7df1e" },
+      ]
+    },
+    {
+      title: "Web Technologies",
       skills: [
         { name: "HTML5", icon: <FaHtml5 />, color: "#e34c26" },
         { name: "CSS3", icon: <FaCss3Alt />, color: "#264de4" },
-        { name: "JavaScript", icon: <FaJs />, color: "#f7df1e" },
-        { name: "React", icon: <FaReact />, color: "#61dbfb" },
-        { name: "Tailwind", icon: <SiTailwindcss />, color: "#06b6d4" },
+        { name: "React.js", icon: <FaReact />, color: "#61dbfb" },
       ]
     },
     {
-      title: "Backend & DB",
+      title: "Databases & Tools",
       skills: [
-        { name: "Node.js", icon: <FaNodeJs />, color: "#3c873a" },
-        { name: "PHP", icon: <FaPhp />, color: "#777bb4" },
-        { name: "MySQL", icon: <FaDatabase />, color: "#00758f" },
-        { name: "PostgreSQL", icon: <SiPostgresql />, color: "#336791" },
-      ]
-    },
-    {
-      title: "Tools & Others",
-      skills: [
-        { name: "Git", icon: <FaGitAlt />, color: "#f05032" },
-        { name: "Vite", icon: <SiVite />, color: "#646cff" },
-        { name: "Firebase", icon: <SiFirebase />, color: "#ffca28" },
+        { name: "MySQL / SQL", icon: <FaDatabase />, color: "#00758f" },
+        { name: "Git & GitHub", icon: <FaGitAlt />, color: "#f05032" },
+        { name: "VS Code", icon: <FaNodeJs />, color: "#007acc" },
+        { name: "IntelliJ IDEA", icon: <FaJs />, color: "#fe315d" },
       ]
     }
   ];
