@@ -50,7 +50,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="section">
-      <motion.h2 
+      <motion.h2
         className="section-title"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -61,7 +61,7 @@ const Skills = () => {
 
       <div className="skills-container">
         {categories.map((category, idx) => (
-          <motion.div 
+          <motion.div
             key={category.title}
             className="skill-category glass"
             variants={containerVariants}
@@ -72,7 +72,7 @@ const Skills = () => {
             <h3>{category.title}</h3>
             <div className="skills-grid">
               {category.skills.map((skill) => (
-                <motion.div 
+                <motion.div
                   key={skill.name}
                   className="skill-item"
                   variants={itemVariants}
