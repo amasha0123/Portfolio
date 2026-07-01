@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const About = () => {
   return (
     <section id="about" className="section">
-      <motion.h2 
+      <motion.h2
         className="section-title"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -12,9 +12,9 @@ const About = () => {
       >
         About Me
       </motion.h2>
-      
+
       <div className="about-grid">
-        <motion.div 
+        <motion.div
           className="about-text glass"
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -38,8 +38,8 @@ const About = () => {
             </div>
           </div>
         </motion.div>
-        
-        <motion.div 
+
+        <motion.div
           className="about-details glass"
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}

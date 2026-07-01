@@ -27,7 +27,7 @@ const ProjectCard = ({ project, idx }) => {
   }
 
   return (
-    <motion.div 
+    <motion.div
       className="project-card glass"
       style={{
         rotateX,
@@ -50,12 +50,16 @@ const ProjectCard = ({ project, idx }) => {
           ))}
         </div>
         <div className="project-links">
-          <a href={project.github} className="project-link" title="Source Code">
-            <FaGithub /> Code
-          </a>
-          <a href={project.live} className="project-link" title="Live Preview">
-            <FaExternalLinkAlt /> Live
-          </a>
+          {project.github !== "#" && (
+            <a href={project.github} className="project-link" title="Source Code" target="_blank" rel="noopener noreferrer">
+              <FaGithub /> Code
+            </a>
+          )}
+          {project.live !== "#" && (
+            <a href={project.live} className="project-link" title="Live Preview" target="_blank" rel="noopener noreferrer">
+              <FaExternalLinkAlt /> Live
+            </a>
+          )}
         </div>
       </div>
     </motion.div>
@@ -67,50 +71,50 @@ const Projects = () => {
     {
       title: "Portfolio",
       description: "A modern, responsive portfolio website showcasing projects, technical skills, and professional achievements.",
-      tags: ["React", "Vite", "Framer Motion"],
+      tags: ["React", "Vite", "Tailwind CSS"],
       github: "https://github.com/amasha0123/Portfolio",
-      live: "https://amasha0123.github.io/Portfolio/",
+      live: "https://amashahansamalee.me/",
     },
     {
       title: "Elysian Stay",
       description: "A responsive full-stack booking application integrating Firebase for robust data management and Stripe API for secure payments.",
       tags: ["React", "Vite", "Node.js", "Express", "Firebase", "Stripe API"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/amasha0123/Elysian-Stay",
+      live: "https://amasha0123.github.io/Elysian-Stay/",
     },
     {
       title: "Online Learning Application",
       description: "A scalable Flutter-based LMS using Firebase, Clean Architecture, Provider state management, and secure RBAC authentication.",
       tags: ["Flutter", "Dart", "Firebase", "Provider"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/amasha0123/online_learning_app",
+      live: "https://amasha0123.github.io/online_learning_app/",
     },
     {
       title: "Auction Website",
       description: "A responsive online auction platform featuring real-time bid updates. Developed as a group project.",
       tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "TanStack Query"],
-      github: "#",
+      github: "https://github.com/amasha0123/auction_website",
       live: "#",
     },
     {
       title: "Wedding Invite Website",
       description: "A responsive wedding invitation website with personalized guest invitations, custom animations, and social sharing features.",
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/amasha0123/wedding-invite",
+      live: "https://amasha0123.github.io/wedding-invitation./",
     },
     {
       title: "Internly Mobile App",
       description: "A Flutter app designed to find internships by uploading CVs, with mock interviews and quizzes for beginners. Developed as a group project.",
       tags: ["Flutter", "Dart"],
-      github: "#",
+      github: "https://github.com/tharinduxn/internly",
       live: "#",
     }
   ];
 
   return (
     <section id="projects" className="section" style={{ perspective: "1000px" }}>
-      <motion.h2 
+      <motion.h2
         className="section-title"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

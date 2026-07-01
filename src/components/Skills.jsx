@@ -1,16 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPhp, FaDatabase, FaGitAlt } from 'react-icons/fa';
-import { SiVite, SiTailwindcss, SiPostgresql, SiFirebase } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPhp, FaDatabase, FaGitAlt, FaJava, FaPython } from 'react-icons/fa';
+import { SiVite, SiTailwindcss, SiPostgresql, SiFirebase, SiC, SiIntellijidea } from 'react-icons/si';
+import { VscVscode } from 'react-icons/vsc';
 
 const Skills = () => {
   const categories = [
     {
       title: "Programming Languages",
       skills: [
-        { name: "Java", icon: <FaJs />, color: "#b07219" }, // Using JS icon as a placeholder since FaJava is not imported, let's just stick to names or find better icons
-        { name: "Python", icon: <FaJs />, color: "#3572A5" },
-        { name: "C", icon: <FaJs />, color: "#555555" },
+        { name: "Java", icon: <FaJava />, color: "#b07219" },
+        { name: "Python", icon: <FaPython />, color: "#3572A5" },
+        { name: "C", icon: <SiC />, color: "#555555" },
         { name: "JavaScript", icon: <FaJs />, color: "#f7df1e" },
       ]
     },
@@ -27,8 +28,8 @@ const Skills = () => {
       skills: [
         { name: "MySQL / SQL", icon: <FaDatabase />, color: "#00758f" },
         { name: "Git & GitHub", icon: <FaGitAlt />, color: "#f05032" },
-        { name: "VS Code", icon: <FaNodeJs />, color: "#007acc" },
-        { name: "IntelliJ IDEA", icon: <FaJs />, color: "#fe315d" },
+        { name: "VS Code", icon: <VscVscode />, color: "#007acc" },
+        { name: "IntelliJ IDEA", icon: <SiIntellijidea />, color: "#fe315d" },
       ]
     }
   ];
