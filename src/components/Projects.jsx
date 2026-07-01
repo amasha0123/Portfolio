@@ -73,7 +73,7 @@ const Projects = () => {
       description: "A modern, responsive portfolio website showcasing projects, technical skills, and professional achievements.",
       tags: ["React", "Vite", "Tailwind CSS"],
       github: "https://github.com/amasha0123/Portfolio",
-      live: "https://amashahansamalee.me/",
+      live: "https://amasha0123.github.io/Portfolio/",
     },
     {
       title: "Elysian Stay",
