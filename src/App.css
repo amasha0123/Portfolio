@@ -373,6 +373,17 @@
   color: var(--text-secondary);
 }
 
+.email-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.email-link:hover {
+  color: var(--accent-color);
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+
 .social-links {
   display: flex;
   gap: 20px;

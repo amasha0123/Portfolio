@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://amashahansamalee.me/sitemap.xml
+Sitemap: https://amasha0123.github.io/Portfolio/sitemap.xml

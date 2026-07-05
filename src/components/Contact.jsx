@@ -31,7 +31,7 @@ const Contact = () => {
           <div className="contact-details">
             <div className="detail-item">
               <FaEnvelope />
-              <a href="mailto:gmahansamalee@gmail.com">gmahansamalee@gmail.com</a>
+              <a href="mailto:gmahansamalee@gmail.com" className="email-link">gmahansamalee@gmail.com</a>
             </div>
             <div className="detail-item">
               <FaMapMarkerAlt />
@@ -56,7 +56,7 @@ const Contact = () => {
             {/* Optional FormSubmit Settings */}
             <input type="hidden" name="_subject" value="New submission from your Portfolio!" />
             <input type="hidden" name="_captcha" value="false" />
-
+            
             <div className="form-group">
               <input type="text" name="name" placeholder="Your Name" required />
             </div>
