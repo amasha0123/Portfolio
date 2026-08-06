@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaInfoCircle } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project, idx }) => {
   const x = useMotionValue(0);
@@ -43,19 +44,18 @@ const ProjectCard = ({ project, idx }) => {
     >
       <div className="project-content" style={{ transform: "translateZ(50px)" }}>
         <h3>{project.title}</h3>
-        <p>{project.description}</p>
-        <div className="project-tags">
-          {project.tags.map(tag => (
-            <span key={tag} className="tag">{tag}</span>
-          ))}
-        </div>
         <div className="project-links">
-          {project.github !== "#" && (
+          {project.id && (
+            <Link to={`/project/${project.id}`} className="project-link" title="View Details">
+              <FaInfoCircle /> Details
+            </Link>
+          )}
+          {project.github && project.github !== "#" && (
             <a href={project.github} className="project-link" title="Source Code" target="_blank" rel="noopener noreferrer">
               <FaGithub /> Code
             </a>
           )}
-          {project.live !== "#" && (
+          {project.live && project.live !== "#" && (
             <a href={project.live} className="project-link" title="Live Preview" target="_blank" rel="noopener noreferrer">
               <FaExternalLinkAlt /> Live
             </a>
@@ -69,9 +69,18 @@ const ProjectCard = ({ project, idx }) => {
 const Projects = () => {
   const projects = [
     {
+      title: "Sarasavi Library Management System",
+      description: "A desktop-based application developed to automate and manage daily library operations such as loans, reservations, and book inventory.",
+      tags: ["C#", ".NET", "Windows Forms", "SQL Server"],
+      id: "sarasavi-library",
+      github: "https://github.com/amasha0123/SarasaviLibrary",
+      live: "#",
+    },
+    {
       title: "Portfolio",
       description: "A modern, responsive portfolio website showcasing projects, technical skills, and professional achievements.",
       tags: ["React", "Vite", "Tailwind CSS"],
+      id: "portfolio",
       github: "https://github.com/amasha0123/Portfolio",
       live: "https://amasha0123.github.io/Portfolio/",
     },
@@ -79,6 +88,7 @@ const Projects = () => {
       title: "Elysian Stay",
       description: "A responsive full-stack booking application integrating Firebase for robust data management and Stripe API for secure payments.",
       tags: ["React", "Vite", "Node.js", "Express", "Firebase", "Stripe API"],
+      id: "elysian-stay",
       github: "https://github.com/amasha0123/Elysian-Stay",
       live: "https://amasha0123.github.io/Elysian-Stay/",
     },
@@ -86,6 +96,7 @@ const Projects = () => {
       title: "Online Learning Application",
       description: "A scalable Flutter-based LMS using Firebase, Clean Architecture, Provider state management, and secure RBAC authentication.",
       tags: ["Flutter", "Dart", "Firebase", "Provider"],
+      id: "learnme",
       github: "https://github.com/amasha0123/online_learning_app",
       live: "https://amasha0123.github.io/online_learning_app/",
     },
@@ -93,6 +104,7 @@ const Projects = () => {
       title: "Auction Website",
       description: "A responsive online auction platform featuring real-time bid updates. Developed as a group project.",
       tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "TanStack Query"],
+      id: "auction-site",
       github: "https://github.com/amasha0123/auction_website",
       live: "#",
     },
@@ -100,6 +112,7 @@ const Projects = () => {
       title: "Wedding Invite Website",
       description: "A responsive wedding invitation website with personalized guest invitations, custom animations, and social sharing features.",
       tags: ["HTML", "CSS", "JavaScript"],
+      id: "wedding-invite",
       github: "https://github.com/amasha0123/wedding-invite",
       live: "https://amasha0123.github.io/wedding-invitation./",
     },
@@ -107,6 +120,7 @@ const Projects = () => {
       title: "Internly Mobile App",
       description: "A Flutter app designed to find internships by uploading CVs, with mock interviews and quizzes for beginners. Developed as a group project.",
       tags: ["Flutter", "Dart"],
+      id: "internly",
       github: "https://github.com/tharinduxn/internly",
       live: "#",
     }
